@@ -5,12 +5,12 @@ Se simula el funcionamiento de un centro de soporte técnico que opera durante 2
 ## Descripción
 
 El programa realiza dos tareas principales:
-1.  **Cálculo Teórico:** Obtiene las probabilidades estacionarias de cada turno y calcula métricas esperadas ($L$, $W$) usando fórmulas de Teoría de Colas.
+1.  **Cálculo Teórico:** Obtiene las probabilidades estacionarias de cada turno y calcula métricas esperadas ($L$, $W$).
 2.  **Simulación:** Ejecuta una simulación minuto a minuto durante 24 horas para comparar el comportamiento real con el teórico.
 
 ## Librerias
 
-El proyecto requiere las siguientes librerías:
+El programa requiere las siguientes librerías:
 * `numpy` 
 * `pandas`
 * `matplotlib`
