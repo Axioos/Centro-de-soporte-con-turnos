@@ -15,14 +15,14 @@ El programa requiere las siguientes librerías:
 * `pandas`
 * `matplotlib`
 
-#### Instalación
+### Instalación
 Ejecuta el siguiente comando en tu terminal para instalar las dependencias:
 
 ```bash
 pip install numpy pandas matplotlib
 ```
 
-##### Ejecución
+## Ejecución
 ```bash
 pip python3 main.py
 ```
