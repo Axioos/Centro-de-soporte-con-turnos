@@ -1,6 +1,6 @@
 import numpy as np
 
-# --- DATOS ---
+#DATOS:
 
 #Tasa de llegada (lambda)
 TASA_LLEGADA = 10 
