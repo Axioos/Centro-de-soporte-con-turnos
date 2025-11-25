@@ -18,6 +18,16 @@ def main():
               f"Rho={item['factor_uso']:.2f}, "
               f"L={item['L']:.2f}, "
               f"W={item['W']:.2f}")
+        
+    #CÁLCULO PONDERADO GLOBAL:
+    l_global = sum(d['L'] * d['Prob_Estacionaria'] for d in info_teorica)
+    w_global = sum(d['W'] * d['Prob_Estacionaria'] for d in info_teorica)
+    rho_global = sum(d['factor_uso'] * d['Prob_Estacionaria'] for d in info_teorica)
+    
+    print("\nMétricas Globales Ponderadas (Promedios):")
+    print(f"ρ: {rho_global:.2f}")
+    print(f"L (Clientes): {l_global:.2f}")
+    print(f"W (Tiempo): {w_global:.2f} horas")
 
     #B) Ejecutar simulación
     print("\nEjecutando simulación...")

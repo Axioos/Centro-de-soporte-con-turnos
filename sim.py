@@ -42,7 +42,8 @@ def ejecutar_simulacion():
             "Hora": t / 60,
             "Turno": NOMBRES_TURNOS[turno_id],
             "Clientes_en_Sistema": num_clientes,
-            "Mu_Actual": mu_actual
+            "Mu_Actual": mu_actual,
+            "Lambda": TASA_LLEGADA
         })
         
     #Convertir lista a DataFrame
